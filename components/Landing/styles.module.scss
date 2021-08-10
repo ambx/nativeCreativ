@@ -1,0 +1,9 @@
+@import "../../styles/colors";
+@import "../../styles/mixins";
+
+.container{
+    height: 100vh;
+    padding-top: 30px;
+    background-color: $blue;
+    background-image: url("/images/grid-pattern.svg");
+}

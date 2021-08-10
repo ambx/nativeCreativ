@@ -1,0 +1,27 @@
+@import "../../styles/colors";
+@import "../../styles/mixins";
+
+.navbar {
+  margin: 0 8vw;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  a {
+    color: $orange-accent;
+  }
+  a:hover{
+      color: white;
+  }
+}
+.navOptions {
+  display: flex;
+  gap: 20px;
+  a:hover {
+    color: $orange-accent;
+  }
+}
+.logoSvg {
+  fill: $orange-accent;
+}
