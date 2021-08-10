@@ -5,6 +5,9 @@
   margin: 0 8vw;
   display: flex;
   justify-content: space-between;
+  @include respond-below(sm){
+    margin: 0 2vw;
+  }
 }
 .logo {
   display: flex;
@@ -18,6 +21,7 @@
 .navOptions {
   display: flex;
   gap: 20px;
+  
   a:hover {
     color: $orange-accent;
   }

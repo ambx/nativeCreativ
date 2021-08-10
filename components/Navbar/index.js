@@ -28,9 +28,6 @@ export default function navbar(props) {
           <a href="#">Blog</a>
         </li>
         <li>
-          <a href="#">About</a>
-        </li>
-        <li>
           <a href="#">Contact</a>
         </li>
       </div>

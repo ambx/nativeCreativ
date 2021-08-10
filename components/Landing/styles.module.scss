@@ -1,9 +1,16 @@
 @import "../../styles/colors";
 @import "../../styles/mixins";
 
-.container{
-    height: 100vh;
-    padding-top: 30px;
-    background-color: $blue;
-    background-image: url("/images/grid-pattern.svg");
+.container {
+  height: 100%;
+  padding-top: 30px;
+  background-color: $blue;
+  background-image: url("/images/grid-pattern.svg");
+  margin-bottom: 100px;
+  @include respond-below(sm) {
+    height: 110vh;
+    width: 110%;
+    margin-bottom: 50px;
+
+  }
 }

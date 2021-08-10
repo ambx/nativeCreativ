@@ -8,7 +8,4 @@
     .children{
         min-height: 70vh;
     }
-    @include respond-below(sm){
-        margin: 0 2vw;
-    }
   }
